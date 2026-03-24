@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@source "../../widgets/src";
+@source "../../../packages/components/src";
 
 :root {
   /* Core brand colors */
