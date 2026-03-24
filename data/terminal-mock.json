@@ -1,0 +1,396 @@
+{
+  "liveMarketCount": 247,
+  "categories": ["Politics", "Sports", "Crypto", "Economics", "Culture", "Climate", "Tech & Science"],
+  "markets": [
+    {
+      "id": 1,
+      "pmxt_id": "mock-1",
+      "question": "Will Bitcoin exceed $100K by end of 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-1",
+      "event_slug": "bitcoin-100k-2026",
+      "event_title": "Bitcoin Price Milestones",
+      "category": "Crypto",
+      "volume": 42500000,
+      "volume24h": 3120000,
+      "liquidity": 8750000,
+      "openInterest": 15600000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 1, "pmxt_id": "tok-1a", "description": "Yes", "price": 0.62, "token_id": "tok-1a" },
+        { "id": 2, "pmxt_id": "tok-1b", "description": "No", "price": 0.38, "token_id": "tok-1b" }
+      ]
+    },
+    {
+      "id": 2,
+      "pmxt_id": "mock-2",
+      "question": "2028 US Presidential Election Winner?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-2",
+      "event_slug": "2028-presidential-election",
+      "event_title": "2028 Presidential Election",
+      "category": "Politics",
+      "volume": 89200000,
+      "volume24h": 5430000,
+      "liquidity": 22100000,
+      "openInterest": 34500000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 3, "pmxt_id": "tok-2a", "description": "JD Vance", "price": 0.31, "token_id": "tok-2a" },
+        { "id": 4, "pmxt_id": "tok-2b", "description": "Gavin Newsom", "price": 0.22, "token_id": "tok-2b" },
+        { "id": 5, "pmxt_id": "tok-2c", "description": "Josh Shapiro", "price": 0.15, "token_id": "tok-2c" },
+        { "id": 6, "pmxt_id": "tok-2d", "description": "Ron DeSantis", "price": 0.12, "token_id": "tok-2d" }
+      ]
+    },
+    {
+      "id": 3,
+      "pmxt_id": "mock-3",
+      "question": "Will the Fed cut rates before July 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-3",
+      "event_slug": "fed-rate-cut-july-2026",
+      "event_title": "Federal Reserve Rate Decisions",
+      "category": "Economics",
+      "volume": 31700000,
+      "volume24h": 2890000,
+      "liquidity": 7200000,
+      "openInterest": 11800000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 7, "pmxt_id": "tok-3a", "description": "Yes", "price": 0.71, "token_id": "tok-3a" },
+        { "id": 8, "pmxt_id": "tok-3b", "description": "No", "price": 0.29, "token_id": "tok-3b" }
+      ]
+    },
+    {
+      "id": 4,
+      "pmxt_id": "mock-4",
+      "question": "NBA Finals 2026 Champion?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-4",
+      "event_slug": "nba-finals-2026",
+      "event_title": "NBA Finals 2026",
+      "category": "Sports",
+      "volume": 18900000,
+      "volume24h": 1540000,
+      "liquidity": 4800000,
+      "openInterest": 7200000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 9, "pmxt_id": "tok-4a", "description": "Boston Celtics", "price": 0.28, "token_id": "tok-4a" },
+        { "id": 10, "pmxt_id": "tok-4b", "description": "Oklahoma City Thunder", "price": 0.24, "token_id": "tok-4b" },
+        { "id": 11, "pmxt_id": "tok-4c", "description": "Denver Nuggets", "price": 0.14, "token_id": "tok-4c" }
+      ]
+    },
+    {
+      "id": 5,
+      "pmxt_id": "mock-5",
+      "question": "Will Ethereum flip Bitcoin market cap by 2027?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-5",
+      "event_slug": "eth-flip-btc-2027",
+      "event_title": "Ethereum vs Bitcoin",
+      "category": "Crypto",
+      "volume": 15200000,
+      "volume24h": 980000,
+      "liquidity": 3600000,
+      "openInterest": 5100000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 12, "pmxt_id": "tok-5a", "description": "Yes", "price": 0.08, "token_id": "tok-5a" },
+        { "id": 13, "pmxt_id": "tok-5b", "description": "No", "price": 0.92, "token_id": "tok-5b" }
+      ]
+    },
+    {
+      "id": 6,
+      "pmxt_id": "mock-6",
+      "question": "Will a major hurricane hit Florida in 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-6",
+      "event_slug": "hurricane-florida-2026",
+      "event_title": "2026 Hurricane Season",
+      "category": "Climate",
+      "volume": 8700000,
+      "volume24h": 620000,
+      "liquidity": 2100000,
+      "openInterest": 3400000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 14, "pmxt_id": "tok-6a", "description": "Yes", "price": 0.45, "token_id": "tok-6a" },
+        { "id": 15, "pmxt_id": "tok-6b", "description": "No", "price": 0.55, "token_id": "tok-6b" }
+      ]
+    },
+    {
+      "id": 7,
+      "pmxt_id": "mock-7",
+      "question": "Oscar Best Picture 2027?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-7",
+      "event_slug": "oscar-best-picture-2027",
+      "event_title": "99th Academy Awards",
+      "category": "Culture",
+      "volume": 6300000,
+      "volume24h": 410000,
+      "liquidity": 1500000,
+      "openInterest": 2200000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 16, "pmxt_id": "tok-7a", "description": "The Brutalist", "price": 0.19, "token_id": "tok-7a" },
+        { "id": 17, "pmxt_id": "tok-7b", "description": "Anora", "price": 0.16, "token_id": "tok-7b" },
+        { "id": 18, "pmxt_id": "tok-7c", "description": "Conclave", "price": 0.14, "token_id": "tok-7c" }
+      ]
+    },
+    {
+      "id": 8,
+      "pmxt_id": "mock-8",
+      "question": "2028 Democratic Presidential Nominee?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-8",
+      "event_slug": "2028-democratic-nominee",
+      "event_title": "2028 Democratic Primary",
+      "category": "Politics",
+      "volume": 52100000,
+      "volume24h": 4210000,
+      "liquidity": 14300000,
+      "openInterest": 21000000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 19, "pmxt_id": "tok-8a", "description": "Gavin Newsom", "price": 0.27, "token_id": "tok-8a" },
+        { "id": 20, "pmxt_id": "tok-8b", "description": "Josh Shapiro", "price": 0.18, "token_id": "tok-8b" },
+        { "id": 21, "pmxt_id": "tok-8c", "description": "Gretchen Whitmer", "price": 0.15, "token_id": "tok-8c" }
+      ]
+    },
+    {
+      "id": 9,
+      "pmxt_id": "mock-9",
+      "question": "Will US GDP growth exceed 3% in 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-9",
+      "event_slug": "us-gdp-growth-2026",
+      "event_title": "US Economic Indicators",
+      "category": "Economics",
+      "volume": 11500000,
+      "volume24h": 870000,
+      "liquidity": 2900000,
+      "openInterest": 4600000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 22, "pmxt_id": "tok-9a", "description": "Yes", "price": 0.34, "token_id": "tok-9a" },
+        { "id": 23, "pmxt_id": "tok-9b", "description": "No", "price": 0.66, "token_id": "tok-9b" }
+      ]
+    },
+    {
+      "id": 10,
+      "pmxt_id": "mock-10",
+      "question": "Champions League Winner 2025-26?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-10",
+      "event_slug": "champions-league-2026",
+      "event_title": "UEFA Champions League",
+      "category": "Sports",
+      "volume": 27800000,
+      "volume24h": 2150000,
+      "liquidity": 6400000,
+      "openInterest": 10200000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 24, "pmxt_id": "tok-10a", "description": "Real Madrid", "price": 0.22, "token_id": "tok-10a" },
+        { "id": 25, "pmxt_id": "tok-10b", "description": "Manchester City", "price": 0.18, "token_id": "tok-10b" },
+        { "id": 26, "pmxt_id": "tok-10c", "description": "Arsenal", "price": 0.15, "token_id": "tok-10c" },
+        { "id": 27, "pmxt_id": "tok-10d", "description": "Barcelona", "price": 0.13, "token_id": "tok-10d" }
+      ]
+    },
+    {
+      "id": 11,
+      "pmxt_id": "mock-11",
+      "question": "Will Apple release AR glasses in 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-11",
+      "event_slug": "apple-ar-glasses-2026",
+      "event_title": "Apple Product Launches",
+      "category": "Tech & Science",
+      "volume": 9400000,
+      "volume24h": 730000,
+      "liquidity": 2300000,
+      "openInterest": 3800000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 28, "pmxt_id": "tok-11a", "description": "Yes", "price": 0.22, "token_id": "tok-11a" },
+        { "id": 29, "pmxt_id": "tok-11b", "description": "No", "price": 0.78, "token_id": "tok-11b" }
+      ]
+    },
+    {
+      "id": 12,
+      "pmxt_id": "mock-12",
+      "question": "Solana price above $500 by Dec 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-12",
+      "event_slug": "solana-500-dec-2026",
+      "event_title": "Solana Price Milestones",
+      "category": "Crypto",
+      "volume": 13600000,
+      "volume24h": 1120000,
+      "liquidity": 3100000,
+      "openInterest": 5500000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 30, "pmxt_id": "tok-12a", "description": "Yes", "price": 0.18, "token_id": "tok-12a" },
+        { "id": 31, "pmxt_id": "tok-12b", "description": "No", "price": 0.82, "token_id": "tok-12b" }
+      ]
+    },
+    {
+      "id": 13,
+      "pmxt_id": "mock-13",
+      "question": "Will US enter recession in 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-13",
+      "event_slug": "us-recession-2026",
+      "event_title": "US Recession Watch",
+      "category": "Economics",
+      "volume": 38900000,
+      "volume24h": 3540000,
+      "liquidity": 9800000,
+      "openInterest": 16200000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 32, "pmxt_id": "tok-13a", "description": "Yes", "price": 0.29, "token_id": "tok-13a" },
+        { "id": 33, "pmxt_id": "tok-13b", "description": "No", "price": 0.71, "token_id": "tok-13b" }
+      ]
+    },
+    {
+      "id": 14,
+      "pmxt_id": "mock-14",
+      "question": "2026 FIFA World Cup top scorer?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-14",
+      "event_slug": "world-cup-2026-top-scorer",
+      "event_title": "2026 FIFA World Cup",
+      "category": "Sports",
+      "volume": 21400000,
+      "volume24h": 1890000,
+      "liquidity": 5200000,
+      "openInterest": 8100000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 34, "pmxt_id": "tok-14a", "description": "Kylian Mbappe", "price": 0.16, "token_id": "tok-14a" },
+        { "id": 35, "pmxt_id": "tok-14b", "description": "Erling Haaland", "price": 0.14, "token_id": "tok-14b" },
+        { "id": 36, "pmxt_id": "tok-14c", "description": "Lionel Messi", "price": 0.09, "token_id": "tok-14c" }
+      ]
+    },
+    {
+      "id": 15,
+      "pmxt_id": "mock-15",
+      "question": "Will Congress pass AI regulation by 2027?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-15",
+      "event_slug": "congress-ai-regulation-2027",
+      "event_title": "AI Policy & Regulation",
+      "category": "Tech & Science",
+      "volume": 7600000,
+      "volume24h": 560000,
+      "liquidity": 1800000,
+      "openInterest": 3100000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 37, "pmxt_id": "tok-15a", "description": "Yes", "price": 0.38, "token_id": "tok-15a" },
+        { "id": 38, "pmxt_id": "tok-15b", "description": "No", "price": 0.62, "token_id": "tok-15b" }
+      ]
+    },
+    {
+      "id": 16,
+      "pmxt_id": "mock-16",
+      "question": "Will Republicans hold the House in 2026 midterms?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-16",
+      "event_slug": "republicans-house-2026",
+      "event_title": "2026 Midterm Elections",
+      "category": "Politics",
+      "volume": 45600000,
+      "volume24h": 3870000,
+      "liquidity": 12100000,
+      "openInterest": 19500000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 39, "pmxt_id": "tok-16a", "description": "Yes", "price": 0.52, "token_id": "tok-16a" },
+        { "id": 40, "pmxt_id": "tok-16b", "description": "No", "price": 0.48, "token_id": "tok-16b" }
+      ]
+    },
+    {
+      "id": 17,
+      "pmxt_id": "mock-17",
+      "question": "Taylor Swift Eras Tour gross above $3B?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-17",
+      "event_slug": "taylor-swift-eras-tour-3b",
+      "event_title": "Entertainment Records",
+      "category": "Culture",
+      "volume": 4800000,
+      "volume24h": 340000,
+      "liquidity": 1200000,
+      "openInterest": 1900000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 41, "pmxt_id": "tok-17a", "description": "Yes", "price": 0.85, "token_id": "tok-17a" },
+        { "id": 42, "pmxt_id": "tok-17b", "description": "No", "price": 0.15, "token_id": "tok-17b" }
+      ]
+    },
+    {
+      "id": 18,
+      "pmxt_id": "mock-18",
+      "question": "Global average temperature anomaly above 1.5C in 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-18",
+      "event_slug": "global-temp-1-5c-2026",
+      "event_title": "Climate Milestones",
+      "category": "Climate",
+      "volume": 5600000,
+      "volume24h": 420000,
+      "liquidity": 1400000,
+      "openInterest": 2300000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 43, "pmxt_id": "tok-18a", "description": "Yes", "price": 0.58, "token_id": "tok-18a" },
+        { "id": 44, "pmxt_id": "tok-18b", "description": "No", "price": 0.42, "token_id": "tok-18b" }
+      ]
+    },
+    {
+      "id": 19,
+      "pmxt_id": "mock-19",
+      "question": "Will Tesla stock exceed $400 in 2026?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-19",
+      "event_slug": "tesla-400-2026",
+      "event_title": "Stock Price Milestones",
+      "category": "Economics",
+      "volume": 16800000,
+      "volume24h": 1340000,
+      "liquidity": 4100000,
+      "openInterest": 6700000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 45, "pmxt_id": "tok-19a", "description": "Yes", "price": 0.41, "token_id": "tok-19a" },
+        { "id": 46, "pmxt_id": "tok-19b", "description": "No", "price": 0.59, "token_id": "tok-19b" }
+      ]
+    },
+    {
+      "id": 20,
+      "pmxt_id": "mock-20",
+      "question": "Super Bowl LXI Winner?",
+      "status": "ACTIVE",
+      "event_pmxt_id": "evt-20",
+      "event_slug": "super-bowl-lxi",
+      "event_title": "Super Bowl LXI",
+      "category": "Sports",
+      "volume": 34200000,
+      "volume24h": 2780000,
+      "liquidity": 8600000,
+      "openInterest": 13900000,
+      "imageUrl": null,
+      "outcomes": [
+        { "id": 47, "pmxt_id": "tok-20a", "description": "Kansas City Chiefs", "price": 0.18, "token_id": "tok-20a" },
+        { "id": 48, "pmxt_id": "tok-20b", "description": "Philadelphia Eagles", "price": 0.12, "token_id": "tok-20b" },
+        { "id": 49, "pmxt_id": "tok-20c", "description": "Detroit Lions", "price": 0.11, "token_id": "tok-20c" },
+        { "id": 50, "pmxt_id": "tok-20d", "description": "Buffalo Bills", "price": 0.10, "token_id": "tok-20d" }
+      ]
+    }
+  ]
+}

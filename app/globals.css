@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@source "../../widgets/src";
+
+:root {
+  /* Core brand colors */
+  --brand-primary: #00a36c;
+  /* Kalshi Green */
+  --brand-primary-hover: #008f5d;
+  --brand-secondary: #0076ff;
+  /* Kalshi Blue */
+
+  /* Backgrounds */
+  --bg-main: #ffffff;
+  /* Lighter, warmer gray */
+  --bg-surface: #ffffff;
+  --bg-surface-hover: #f3f4f6;
+  --bg-header: #ffffff;
+  --bg-input: #f4f4f5;
+
+  /* Foregrounds / Text */
+  --text-primary: #111827;
+  /* Deep gray */
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --text-inverse: #ffffff;
+
+  /* Borders */
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --border-strong: rgba(0, 0, 0, 0.12);
+
+  /* Status Colors */
+  --color-live: #ef4444;
+  --color-yes: #00a36c;
+  --color-no: #ef4444;
+
+  /* Misc */
+  --radius-full: 9999px;
+  --radius-card: 16px;
+  --radius-btn: 9999px;
+  --shadow-sm: none;
+  --shadow-card: none;
+
+  /* OrderPanel / TradingWidget tokens */
+  --font-primary: var(--font-jakarta), sans-serif;
+  --font-secondary: var(--font-jakarta), sans-serif;
+  --color-bg-3: #111827;
+  --color-dark-16: rgba(0, 0, 0, 0.16);
+  --color-light: #ffffff;
+  --color-accent: #00a36c;
+  --color-zo: #111827;
+}
+
+@theme inline {
+  --color-primary: var(--brand-primary);
+  --color-primary-hover: var(--brand-primary-hover);
+  --color-secondary: var(--brand-secondary);
+
+  --color-bg-main: var(--bg-main);
+  --color-surface: var(--bg-surface);
+  --color-surface-hover: var(--bg-surface-hover);
+  --color-header: var(--bg-header);
+  --color-input: var(--bg-input);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-inverse: var(--text-inverse);
+
+  --color-border-subtle: var(--border-subtle);
+  --color-border-strong: var(--border-strong);
+
+  --color-live: var(--color-live);
+
+  --radius-card: var(--radius-card);
+  --radius-btn: var(--radius-btn);
+  --radius-full: var(--radius-full);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-sm: var(--shadow-sm);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-jakarta), sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}

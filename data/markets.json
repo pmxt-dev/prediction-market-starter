@@ -1,0 +1,158 @@
+{
+    "liveMarketCount": 18,
+    "topics": [
+        "Trending",
+        "Politics",
+        "Sports",
+        "Culture",
+        "Crypto",
+        "Climate",
+        "Economics",
+        "Mentions",
+        "Companies",
+        "Financials",
+        "Tech & Science"
+    ],
+    "featuredMarket": {
+        "title": "Arnold Palmer Invitational Winner?",
+        "image": "https://picsum.photos/seed/arnoldpalmer/80/80",
+        "volume": "$19,782,561",
+        "marketCount": 70,
+        "news": "Daniel Berger holds the lead after shooting a 9-under 63 in the opening round of the Arnold Palmer Invitational at Bay Hill in Orlando...",
+        "status": "LIVE",
+        "subStatus": "Round 2",
+        "index": "1 of 7",
+        "chartTimeLabels": [
+            "10:07",
+            "11:51",
+            "13:36",
+            "15:19",
+            "17:04"
+        ],
+        "choices": [
+            {
+                "name": "Scottie Scheffler",
+                "value": "-2",
+                "probability": "16%",
+                "color": "primary"
+            },
+            {
+                "name": "Daniel Berger",
+                "value": "-9",
+                "probability": "14%",
+                "color": "orange-500"
+            }
+        ],
+        "chartData": [
+            {
+                "label": "Scheffler",
+                "value": "16%",
+                "color": "primary"
+            },
+            {
+                "label": "Morikawa",
+                "value": "14%",
+                "color": "secondary"
+            },
+            {
+                "label": "Berger",
+                "value": "14%",
+                "color": "orange-500"
+            }
+        ]
+    },
+    "topMarkets": [
+        {
+            "category": "US ELECTIONS",
+            "image": "https://picsum.photos/seed/uselections2028/80/80",
+            "title": "2028 Democratic nominee for President?",
+            "choices": [
+                {
+                    "name": "Gavin Newsom",
+                    "multiplier": "3.52x",
+                    "probability": "27%"
+                },
+                {
+                    "name": "Josh Shapiro",
+                    "multiplier": "4.20x",
+                    "probability": "18%"
+                }
+            ]
+        },
+        {
+            "category": "BASKETBALL",
+            "image": "https://picsum.photos/seed/ncaabasketball/80/80",
+            "title": "Men's College Basketball Champion",
+            "choices": [
+                {
+                    "name": "Duke",
+                    "multiplier": "3.80x",
+                    "probability": "25%"
+                },
+                {
+                    "name": "UConn",
+                    "multiplier": "4.50x",
+                    "probability": "20%"
+                }
+            ]
+        }
+    ],
+    "sidebar": {
+        "banners": [
+            {
+                "title": "Primary Elections",
+                "subtitle": "United States 2026",
+                "image": "https://picsum.photos/seed/primaries2026/80/80"
+            }
+        ],
+        "trending": [
+            {
+                "id": 1,
+                "title": "How long will the government shutdown last?",
+                "subtitle": "At least 50 days",
+                "probability": "51%",
+                "trend": "▼ 11",
+                "isUp": false
+            },
+            {
+                "id": 2,
+                "title": "When will DHS be funded again?",
+                "subtitle": "Before Apr 1, 2026",
+                "probability": "64%",
+                "trend": "▲ 4",
+                "isUp": true
+            },
+            {
+                "id": 3,
+                "title": "When will DHS receive full-year funding?",
+                "subtitle": "Before Apr 1, 2026",
+                "probability": "50%",
+                "trend": "▲ 3",
+                "isUp": true
+            }
+        ],
+        "primaries": [
+            {
+                "id": 1,
+                "title": "TX-23 Republican nominee?",
+                "subtitle": "Brandon Herrera",
+                "probability": "99%",
+                "trend": "▲ 9"
+            },
+            {
+                "id": 2,
+                "title": "NC-04 Democratic nominee?",
+                "subtitle": "Valerie Foushee",
+                "probability": "99%",
+                "trend": "▲ 1"
+            },
+            {
+                "id": 3,
+                "title": "TX-33 Democratic nominee?",
+                "subtitle": "Colin Allred",
+                "probability": "81%",
+                "trend": "▲ 3"
+            }
+        ]
+    }
+}
