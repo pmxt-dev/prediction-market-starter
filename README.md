@@ -41,10 +41,10 @@ npm install
 Create a `.env.local` file with your API credentials:
 
 ```bash
-NEXT_PUBLIC_API_URL=https://api.yoursite.com
 NEXT_PUBLIC_API_KEY=your-api-key
-NEXT_PUBLIC_FEE_RATE=0.0025
-NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=  # optional, for WalletConnect
+NEXT_PUBLIC_FEE_RATE=0.0025                    # optional
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=           # optional, for WalletConnect
+NEXT_PUBLIC_API_URL=https://custom-url.com      # optional, overrides the default PMXT API
 ```
 
 Then start the development server:
