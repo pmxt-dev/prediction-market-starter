@@ -38,7 +38,7 @@ npm install
 
 ## Running Locally
 
-Create a `.env.local` file with your API credentials:
+Get your API key from [pmxt.dev/dashboard](https://pmxt.dev/dashboard), then create a `.env.local` file:
 
 ```bash
 NEXT_PUBLIC_API_KEY=your-api-key
