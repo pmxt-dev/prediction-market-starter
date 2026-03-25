@@ -2,7 +2,9 @@
 
 A full-featured prediction market platform built with **Next.js**, **@pmxt/components**, and **@pmxt/sdk**. Clone, configure your API key, and deploy your own prediction market in minutes.
 
-**Demo: [starter.pmxt.dev](https://starter.pmxt.dev)**
+**Demo: [pmxt-white-label-integration-consum.vercel.app](https://pmxt-white-label-integration-consum.vercel.app/)**
+
+![Prediction Market Starter](./demo.png)
 
 ## Features
 
