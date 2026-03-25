@@ -30,15 +30,15 @@ A full-featured prediction market platform built with **Next.js**, **@pmxt/compo
 
 ## Getting Started
 
+1. Clone the repo:
+
 ```bash
 git clone https://github.com/pmxt-dev/prediction-market-starter
 cd prediction-market-starter
 npm install
 ```
 
-## Running Locally
-
-Get your API key from [pmxt.dev/dashboard](https://pmxt.dev/dashboard), then create a `.env.local` file:
+2. Get your API key from [pmxt.dev/dashboard](https://pmxt.dev/dashboard) and create a `.env.local`:
 
 ```bash
 NEXT_PUBLIC_API_KEY=your-api-key
@@ -47,7 +47,7 @@ NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=           # optional, for WalletConnect
 NEXT_PUBLIC_API_URL=https://custom-url.com      # optional, overrides the default PMXT API
 ```
 
-Then start the development server:
+3. Start the development server:
 
 ```bash
 npm run dev
