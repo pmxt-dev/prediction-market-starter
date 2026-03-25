@@ -1,6 +1,6 @@
 {
   "name": "@pmxt/consumer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev --port 3000",
@@ -9,8 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@pmxt/sdk": "*",
-    "@pmxt/components": "*",
+    "@pmxt/components": "^0.1.1",
     "@rainbow-me/rainbowkit": "^2.2.10",
     "@tanstack/react-query": "^5.91.2",
     "canvas-confetti": "^1.9.4",
